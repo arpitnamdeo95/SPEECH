@@ -5,7 +5,7 @@ speakEL.addEventListener('click', speakText);
 function speakText() {
 
     // stop any speaking in progress
-    window.speechSynthesis.cancel();
+    window.speechSynthesis.cancel(); 
 
     const text = textEL.value;
     const utterance = new SpeechSynthesisUtterance(text);
